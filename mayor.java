@@ -5,13 +5,10 @@ public class MayorDeTres {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Variables para almacenar los tres números
         double num1 = 0, num2 = 0, num3 = 0;
 
-        // Solicitar e ingresar los tres números
         System.out.println("Ingrese tres números distintos:");
-
-        // Validar primer número
+        
         while (true) {
             try {
                 System.out.print("Número 1: ");
@@ -22,7 +19,6 @@ public class MayorDeTres {
             }
         }
 
-        // Validar segundo número
         while (true) {
             try {
                 System.out.print("Número 2: ");
@@ -37,7 +33,6 @@ public class MayorDeTres {
             }
         }
 
-        // Validar tercer número
         while (true) {
             try {
                 System.out.print("Número 3: ");
@@ -52,7 +47,6 @@ public class MayorDeTres {
             }
         }
 
-        // Determinar el mayor de los tres números
         double mayor = num1;
 
         if (num2 > mayor) {
@@ -62,10 +56,8 @@ public class MayorDeTres {
             mayor = num3;
         }
 
-        // Mostrar el resultado
         System.out.println("El número mayor es: " + mayor);
         
-        // Cerrar el scanner
         scanner.close();
     }
 }
