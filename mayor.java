@@ -13,7 +13,7 @@ public class MayorDeTres {
             try {
                 System.out.print("Número 1: ");
                 num1 = Double.parseDouble(scanner.nextLine());
-                break; // Si se ingresa correctamente, salimos del bucle
+                break; 
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese un número válido.");
             }
@@ -26,7 +26,7 @@ public class MayorDeTres {
                 if (num2 == num1) {
                     System.out.println("El segundo número debe ser distinto del primero.");
                 } else {
-                    break; // Si se ingresa correctamente y es distinto, salimos del bucle
+                    break; 
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese un número válido.");
@@ -40,7 +40,7 @@ public class MayorDeTres {
                 if (num3 == num1 || num3 == num2) {
                     System.out.println("El tercer número debe ser distinto de los dos primeros.");
                 } else {
-                    break; // Si se ingresa correctamente y es distinto, salimos del bucle
+                    break; 
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese un número válido.");
